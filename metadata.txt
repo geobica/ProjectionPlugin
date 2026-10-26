@@ -1,0 +1,12 @@
+[general]
+name=Geobica Projection Lite
+qgisMinimumVersion=3.22
+description=Apply conformal projections optimized for minimal area distortion within a region
+about=This plugin can be used to apply precomputed minimum-distortion conformal projections, which have been generated for each continent, as well as for all land, to a vector layer from any other CRS. These projections have no EPSG code, so the result has no CRS. The math used to create these projections is described at https://geobica.com/bl/mdc/.
+version=1.0.0
+author=Geobica
+email=geo@geobica.com
+category=Vector
+icon=icon.png
+hasProcessingProvider=yes
+experimental=False
